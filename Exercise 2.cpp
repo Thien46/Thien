@@ -15,7 +15,7 @@ int main()
 		interest=capital*(interestrate/100);
 		capital+=interest;
 		interest=capital;
-		printf("Year     Interest     Sum\n%d     %f     %f\n",i,interest,capital);
+		printf("Year     Interest       Sum\n%d        %f   %f\n",i,interest,capital);
 	}
 	return 0;
 }
